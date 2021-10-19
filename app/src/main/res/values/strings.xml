@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FutbolGolApp</string>
+    <string name="idNameApp">Fútgol App</string>
+    <string name="textStartBTN">Start Match</string>
+    <string name="nameFirstTeam">Home Team Name</string>
+    <string name="nameSecondTeam">Visiting Team Name</string>
+</resources>
