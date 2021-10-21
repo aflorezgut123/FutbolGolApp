@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">FutbolGolApp</string>
-    <string name="idNameApp">Fútgol App</string>
+    <string name="app_name">Basket_GolApp</string>
+    <string name="idNameApp">Basket App</string>
     <string name="textStartBTN">Start Match</string>
     <string name="nameFirstTeam">Home Team Name</string>
     <string name="nameSecondTeam">Visiting Team Name</string>
+  <string name="tres">3 THREE</string>
+  <string name="dos">2 TWO</string>
+  <string name="uno">1 ONE</string>
+
 </resources>

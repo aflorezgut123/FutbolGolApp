@@ -12,7 +12,8 @@
         android:background="#000000"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+      tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/idNameApp"
@@ -39,15 +40,16 @@
             android:textColor="@color/white"
             android:textSize="20dp"/>
 
-        <Button
-            android:id="@+id/idStartBTN"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#4CAF50"
-            android:backgroundTint="#4CAF50"
-            android:onClick="startMatch"
-            android:text="@string/textStartBTN"
-            android:textSize="25dp" />
+      <Button
+        android:id="@+id/idStartBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
+        android:onClick="startMatch"
+        android:text="@string/textStartBTN"
+        android:textSize="25dp"
+        tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
