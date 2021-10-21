@@ -1,98 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MatchActvity">
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/constrainLay"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MatchActvity">
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-      tools:ignore="MissingConstraints">
+  <LinearLayout
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
 
-      <TextView
-        android:id="@+id/idtextMatch"
-        android:layout_width="match_parent"
-        android:layout_height="63dp"
-        android:text="@string/app_name"
-        android:textSize="34sp" />
+    <TextView
+      android:id="@+id/idtextMatch"
+      android:layout_width="match_parent"
+      android:layout_height="63dp"
+      android:text="@string/app_name"
+      android:textSize="34sp" />
 
-      <TextView
-        android:id="@+id/textNameF"
-        android:layout_width="match_parent"
-        android:layout_height="57dp"
-        android:autoText="false"
-        android:editable="false" />
+    <TextView
+      android:id="@+id/textNameF"
+      android:layout_width="match_parent"
+      android:layout_height="57dp"
+      tools:ignore="SpeakableTextPresentCheck" />
 
-      <TextView
-        android:id="@+id/textContOne"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="false"
-        android:text="-"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+    <TextView
+      android:id="@+id/textContOne"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:text="@string/txtPuntajeOne"
+      android:textAlignment="center"
+      android:textSize="20sp" />
 
-      <Button
-        android:id="@+id/btnOneEq1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointOneE1"
+    <Button
+      android:id="@+id/btnOneEq1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointOneE1"
 
-        android:text="@string/uno" />
+      android:text="@string/uno"
+      tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
-      <Button
-        android:id="@+id/btnTwoEq1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointTwoE1"
-        android:text="@string/dos" />
+    <Button
+      android:id="@+id/btnTwoEq1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointTwoE1"
+      android:text="@string/dos"
+      tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
-      <Button
-        android:id="@+id/btnThreeEq1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointThreeE1"
-        android:text="@string/tres" />
+    <Button
+      android:id="@+id/btnThreeEq1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointThreeE1"
+      android:text="@string/tres"
+      tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
-        <TextView
-            android:id="@+id/textNameS"
-            android:layout_width="match_parent"
-            android:layout_height="66dp" />
+    <TextView
+      android:id="@+id/textNameS"
+      android:layout_width="match_parent"
+      android:layout_height="66dp" />
 
-      <TextView
-        android:id="@+id/textContTwo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="false"
-        android:text="-"
-        android:textAlignment="center"
-        android:textSize="24sp" />
+    <TextView
+      android:id="@+id/textContTwo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:text="@string/txtPuntajeTwo"
+      android:textAlignment="center"
+      android:textSize="24sp" />
 
-      <Button
-        android:id="@+id/btnOneEq2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointOneE2"
-        android:text="@string/uno" />
+    <Button
+      android:id="@+id/btnOneEq2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointOneE2"
+      android:text="@string/uno"
+      tools:ignore="UsingOnClickInXml" />
 
-      <Button
-        android:id="@+id/btnTwoEq2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointTwoE2"
-        android:text="@string/dos" />
+    <Button
+      android:id="@+id/btnTwoEq2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointTwoE2"
+      android:text="@string/dos"
+      tools:ignore="UsingOnClickInXml" />
 
-      <Button
-        android:id="@+id/btnThreeEq2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="addPointThreeE2"
-        android:text="@string/tres" />
+    <Button
+      android:id="@+id/btnThreeEq2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="addPointThreeE2"
+      android:text="@string/tres"
+      tools:ignore="UsingOnClickInXml" />
 
-    </LinearLayout>
+  </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

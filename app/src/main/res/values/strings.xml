@@ -7,5 +7,7 @@
   <string name="tres">3 THREE</string>
   <string name="dos">2 TWO</string>
   <string name="uno">1 ONE</string>
+  <string name="txtPuntajeOne">-</string>
+  <string name="txtPuntajeTwo">-</string>
 
 </resources>
